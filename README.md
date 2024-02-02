@@ -2,7 +2,11 @@
 
 Welcome to this repository where you'll find examples of components and pages with potential accessibility issues. Additionally, you can access documentation and useful links related to accessibility events and blogs. Explore and contribute to enhance web accessibility!
 
-## Docs
+## Repository Examples 📂
+
+- [Portfolio](https://github.com/kevinccbsg/a11y-resources/tree/main/portfolio-example): Example of one porfolio with bad a11y practices and the solutions.
+
+## Docs 📃
 
 - [Web Content Accessibility Guidelines (WCAG) 2.2](https://www.w3.org/TR/WCAG22/)
 - [WebAIM's WCAG 2 Checklist](https://webaim.org/standards/wcag/checklist)
@@ -11,14 +15,14 @@ Welcome to this repository where you'll find examples of components and pages wi
 - [The A11Y Project](https://www.a11yproject.com/)
 - [Web.dev - Learn Accessibility](https://web.dev/learn/accessibility)
 
-## Blogs
+## Blogs 📚
 
 - [Deque](https://www.deque.com/blog/)
 - [TPGI](https://www.tpgi.com/blog/)
 - [IAAP](https://www.accessibilityassociation.org/s/blogs)
 - [The A11Y Project](https://www.a11yproject.com/posts/)
 
-## Courses
+## Courses 👩‍🎓
 
 - [Web Accessibility Udacity](https://www.udacity.com/course/web-accessibility--ud891)
 - [WCAG 2.1 / 2.2 Simplified With Examples Udemy](https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/)
@@ -27,7 +31,7 @@ Welcome to this repository where you'll find examples of components and pages wi
 - [Competencias Básicas en Accesibilidad](https://hearcolors-educacion.teachable.com/p/competencias-basicas-de-accesibilidad)
 - [CPACC Exam Preparation](https://iaap.edunext.io/courses/course-v1:IAAP+CPACC+2021/about)
 
-## Tools
+## Tools 🛠️
 
 - [WAVE Browser Extensions](https://wave.webaim.org/extension/)
 - [axe DevTools - Web Accessibility Testing](https://chromewebstore.google.com/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd)
@@ -36,7 +40,7 @@ Welcome to this repository where you'll find examples of components and pages wi
 - [Contrast Checker](https://webaim.org/resources/contrastchecker/)
 - [Jaws](https://www.freedomscientific.com/products/software/jaws/)
 
-## Youtube channels
+## Youtube channels 🎥
 
 - [Deque](https://www.youtube.com/@DequeSystemsInc)
 - [IAAP](https://www.youtube.com/@UnitedInAccessibility)
@@ -45,7 +49,7 @@ Welcome to this repository where you'll find examples of components and pages wi
 - [Accessibility Talks](https://www.youtube.com/@AccessibilityTalks)
 - [Equalize Digital](https://www.youtube.com/@EqualizeDigital/featured)
 
-## Events / Meetups
+## Events / Meetups 🌐
 
 - [IAAP](https://www.accessibilityassociation.org/s/upcoming-webinars)
 - [Axe-con](https://www.deque.com/axe-con/)
