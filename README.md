@@ -20,7 +20,7 @@ Welcome to this repository where you'll find examples of components and pages wi
 
 ## Courses
 
-- [Web Accessibility Udacity](https://www.udacity.com/course/web-accessibility--ud891) | Gratis
+- [Web Accessibility Udacity](https://www.udacity.com/course/web-accessibility--ud891)
 - [WCAG 2.1 / 2.2 Simplified With Examples Udemy](https://www.udemy.com/course/web-content-accessibility-guidelines-wcag-21-simplified/)
 - [Web Design Accessibility Certificate Udemy](https://www.udemy.com/course/web-accessibility/)
 - [Creating Accessible Websites](https://www.udemy.com/course/creating-accessible-websites/)
