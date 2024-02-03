@@ -6,30 +6,30 @@ export default function Contact() {
       <form>
         <div className="flex flex-col gap-4">
           <div className="flex flex-col gap-1">
-            <p>Name</p>
+            <label htmlFor="name">Name</label>
             <input
               type="text"
               id="name"
               name="name"
               required
-              className="p-2 border-2 rounded border-slate-600 text-slate-400"
+              className="p-2 border-2 rounded border-slate-600 text-black"
             />
           </div>
           <div className="flex flex-col gap-1">
-            <p>Email</p>
+            <label htmlFor="email">Email</label>
             <input
               type="text"
               id="email"
               name="email"
-              className="p-2 border-2 rounded border-slate-600 text-slate-400"
+              className="p-2 border-2 rounded border-slate-600 text-black"
             />
           </div>
           <div className="flex flex-col gap-1">
-            <p>Message</p>
+            <label htmlFor="message">Message</label>
             <textarea
               id="message"
               name="message"
-              className="p-2 border-2 rounded border-slate-600 text-slate-400"
+              className="p-2 border-2 rounded border-slate-600 text-black"
             />
           </div>
           <button

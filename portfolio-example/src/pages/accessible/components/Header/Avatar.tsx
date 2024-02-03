@@ -8,6 +8,7 @@ export default function Avatar() {
         src={avatar}
         width={200}
         height={200}
+        alt="ByteMystique IA generated avatar"
       />
     </div>
   );

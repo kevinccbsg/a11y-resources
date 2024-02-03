@@ -6,11 +6,11 @@ export default function Section({
   children: React.ReactNode;
 }) {
   return (
-    <div>
-      <div className="text-xl font-bold border-b-2 border-slate-600 leading-8 mb-4">
+    <section>
+      <h2 className="font-bold border-b-2 border-slate-600 leading-8 mb-4">
         {title}
-      </div>
+      </h2>
       {children ?? <></>}
-    </div>
+    </section>
   );
 }
