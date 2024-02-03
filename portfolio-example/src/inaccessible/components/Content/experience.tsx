@@ -1,4 +1,4 @@
-import EXPERIENCE from "../../data/experience";
+import EXPERIENCE from "../../../data/experience";
 import Section from "../Section";
 
 export default function Experience() {

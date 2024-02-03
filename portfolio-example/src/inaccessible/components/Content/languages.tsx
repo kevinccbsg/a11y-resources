@@ -1,4 +1,4 @@
-import LANGUAGES from "../../data/languages";
+import LANGUAGES from "../../../data/languages";
 import { Badge } from "../Badge";
 import Section from "../Section";
 
