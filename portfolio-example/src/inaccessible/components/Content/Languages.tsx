@@ -5,7 +5,7 @@ import Section from "../Section";
 export default function Languages() {
   return (
     <Section title="Languages">
-      <section className="flex flex-wrap gap-1">
+      <div className="flex flex-wrap gap-1">
         {LANGUAGES.map((language) => (
           <Badge
             key={language.name}
@@ -24,7 +24,7 @@ export default function Languages() {
             }
           />
         ))}
-      </section>
+      </div>
     </Section>
   );
 }

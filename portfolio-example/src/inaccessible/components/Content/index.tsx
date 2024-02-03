@@ -1,8 +1,9 @@
-import AboutMe from "./about-me";
-import Education from "./education";
-import Experience from "./experience";
-import Languages from "./languages";
-import Skills from "./skills";
+import AboutMe from "./AboutMe";
+import Contact from "./Contact";
+import Education from "./Education";
+import Experience from "./Experience";
+import Languages from "./Languages";
+import Skills from "./Skills";
 
 export default function Content() {
   return (
@@ -12,6 +13,7 @@ export default function Content() {
       <Education />
       <Skills />
       <Languages />
+      <Contact />
     </div>
   );
 }
