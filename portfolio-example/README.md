@@ -226,6 +226,29 @@ We also need to fix the color of our inputs when we type. That's something we ha
 We have to change the class name `text-slate-400` to `text-black`.
 
 ⚠ This will not be [AAA compliance](https://www.w3.org/TR/WCAG22/#contrast-enhanced) for the submit button in the form ⚠ 
+ 
+### 2.1.1 Keyboard
+
+All functionality of the content is operable through a keyboard interface without requiring specific timings for individual keystrokes, except where the underlying function requires input that depends on the path of the user's movement and not just the endpoints.
+
+In this page we have an arrow key that is not accessible with keyboard and it is not working. We need to add a link to an id, and then we have to add the aria-label to describe what's the purpose of the link.
+
+**solution**
+
+```tsx
+// add link and aria-label
+export default function Arrow() {
+  return (
+    <a
+      href="#content"
+      className="absolute bottom-5"
+      aria-label="go to my experience"
+    >
+      <div className="w-0 h-0 border-x-8 border-x-transparent border-t-[16px] border-white cursor-pointer animate-bounce"></div>
+    </a>
+  );
+}
+```
 
 ### 2.4.2 Page Titled
 
