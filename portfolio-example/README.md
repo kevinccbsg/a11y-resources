@@ -1,30 +1,41 @@
-# React + TypeScript + Vite
+# Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This folders includes a react + typescript + vite app with two pages `/` (accessible) and `/inaccessible` where you can find a portfolio example. One accessible and the other one with a lot of errors.
 
-Currently, two official plugins are available:
+Now, we will talk about the main errors.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 1.4 Distinguishable
 
-## Expanding the ESLint configuration
+Make it easier for users to see and hear content including separating foreground from background. [WCAG](https://www.w3.org/TR/WCAG22/#distinguishable).
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 1.4.3 Contrast (Minimum)
 
-- Configure the top-level `parserOptions` property like this:
+(Level AA)
+The visual presentation of text and images of text has a contrast ratio of at least 4.5:1, except for the following:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
+**Large Text**
+Large-scale text and images of large-scale text have a contrast ratio of at least 3:1;
+
+In these portfolio there are a lot of errors with the contrast. Most of the texts and the background are not valid and you can check that using the [wave extesion](https://wave.webaim.org/extension/) or this [contrast checker](https://webaim.org/resources/contrastchecker/).
+
+**Solution**
+
+```tsx
+// Add better background bg-slate-800 text-white pb-12
+import Content from "./components/Content";
+import { Header } from "./components/Header";
+
+export default function App() {
+  return (
+    <div className="bg-slate-800 text-white pb-12">
+      <Header />
+      <div>
+        <Content />
+      </div>
+    </div>
+  );
 }
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+⚠ This will not be [AAA compliance](https://www.w3.org/TR/WCAG22/#contrast-enhanced) for the submit button in the form ⚠ 
+

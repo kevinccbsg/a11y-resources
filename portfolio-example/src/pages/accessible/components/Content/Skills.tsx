@@ -1,4 +1,4 @@
-import { SKILLS } from "../../../data/skills";
+import { SKILLS } from "../../../../data/skills";
 import { Badge } from "../Badge";
 import Section from "../Section";
 

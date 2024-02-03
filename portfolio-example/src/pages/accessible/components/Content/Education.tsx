@@ -1,4 +1,4 @@
-import EDUCATION from "../../../data/education";
+import EDUCATION from "../../../../data/education";
 import Section from "../Section";
 
 export default function Education() {
