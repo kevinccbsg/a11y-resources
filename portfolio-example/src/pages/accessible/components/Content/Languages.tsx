@@ -16,10 +16,9 @@ export default function Languages() {
                   src={language.imagePath}
                   width={25}
                   height={25}
-                  alt=""
                   aria-labelledby={language.name}
                 />
-                <span id={language.name}>{language.name}</span> <span>({language.level})</span>
+                <span id={language.name}>{language.name} ({language.level})</span>
                 
               </>
             }
