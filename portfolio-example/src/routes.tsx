@@ -1,16 +1,16 @@
-import { createBrowserRouter } from "react-router-dom";
-import InaccessibleHome from "./pages/inaccessible/Home";
-import AccessibleHome from "./pages/accessible/Home";
+import { createBrowserRouter } from 'react-router-dom';
+import InaccessibleHome from './pages/inaccessible/Home';
+import AccessibleHome from './pages/accessible/Home';
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: '/',
     element: (
       <AccessibleHome />
     ),
   },
   {
-    path: "/inaccessible",
+    path: '/inaccessible',
     element: (
       <InaccessibleHome />
     ),

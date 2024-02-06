@@ -3,34 +3,34 @@ export const SKILLS: {
   technologies: string[];
 }[] = [
   {
-    name: "Frontend",
+    name: 'Frontend',
     technologies: [
-      "HTML",
-      "CSS",
-      "Javascript",
-      "Typescript",
-      "React",
-      "Vue",
-      "Sass",
-      "Styled Components",
-      "TailwindCSS",
-      "Next.js",
+      'HTML',
+      'CSS',
+      'Javascript',
+      'Typescript',
+      'React',
+      'Vue',
+      'Sass',
+      'Styled Components',
+      'TailwindCSS',
+      'Next.js',
     ],
   },
   {
-    name: "Backend",
-    technologies: ["Node.js", "API Rest", "Remix", "Nest.js"],
+    name: 'Backend',
+    technologies: ['Node.js', 'API Rest', 'Remix', 'Nest.js'],
   },
   {
-    name: "Testing",
-    technologies: ["Jest", "React Testing Library", "Cypress", "Vitest"],
+    name: 'Testing',
+    technologies: ['Jest', 'React Testing Library', 'Cypress', 'Vitest'],
   },
   {
-    name: "Databases",
-    technologies: ["SQL", "MongoDB"],
+    name: 'Databases',
+    technologies: ['SQL', 'MongoDB'],
   },
   {
-    name: "DevOps",
-    technologies: ["GCP", "Docker", "Github Actions"],
+    name: 'DevOps',
+    technologies: ['GCP', 'Docker', 'Github Actions'],
   },
 ];

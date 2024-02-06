@@ -1,6 +1,6 @@
-import { SKILLS } from "../../../../data/skills";
-import { Badge } from "../Badge";
-import Section from "../Section";
+import { SKILLS } from '../../../../data/skills';
+import { Badge } from '../Badge';
+import Section from '../Section';
 
 export default function Skills() {
   return (

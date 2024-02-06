@@ -1,6 +1,6 @@
-import LANGUAGES from "../../../../data/languages";
-import { Badge } from "../Badge";
-import Section from "../Section";
+import LANGUAGES from '../../../../data/languages';
+import { Badge } from '../Badge';
+import Section from '../Section';
 
 export default function Languages() {
   return (

@@ -9,22 +9,22 @@ const LANGUAGES: {
   code: string;
 }[] = [
   {
-    name: "Spanish",
-    level: "Native",
+    name: 'Spanish',
+    level: 'Native',
     imagePath: spain,
-    code: "es",
+    code: 'es',
   },
   {
-    name: "English",
-    level: "C1",
+    name: 'English',
+    level: 'C1',
     imagePath: uk,
-    code: "en",
+    code: 'en',
   },
   {
-    name: "German",
-    level: "A2",
+    name: 'German',
+    level: 'A2',
     imagePath: germany,
-    code: "de",
+    code: 'de',
   },
 ];
 

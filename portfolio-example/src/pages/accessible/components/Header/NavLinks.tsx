@@ -1,4 +1,4 @@
-import NAV_LINKS from "../../../../data/nav-links";
+import NAV_LINKS from '../../../../data/nav-links';
 
 export default function NavLinks() {
   return (

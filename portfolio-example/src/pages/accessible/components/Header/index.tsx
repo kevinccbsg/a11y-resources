@@ -1,6 +1,6 @@
-import Arrow from "./Arrow";
-import NavLinks from "./NavLinks";
-import Avatar from "./Avatar";
+import Arrow from './Arrow';
+import NavLinks from './NavLinks';
+import Avatar from './Avatar';
 
 export function Header() {
   return (

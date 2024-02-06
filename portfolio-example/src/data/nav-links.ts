@@ -1,6 +1,6 @@
-import linkedIn from "../assets/RRSS/linkedin.svg";
-import github from "../assets/RRSS/github.svg";
-import medium from "../assets/RRSS/medium.svg";
+import linkedIn from '../assets/RRSS/linkedin.svg';
+import github from '../assets/RRSS/github.svg';
+import medium from '../assets/RRSS/medium.svg';
 
 const NAV_LINKS: {
   name: string;
@@ -8,19 +8,19 @@ const NAV_LINKS: {
   url: string;
 }[] = [
   {
-    name: "linkedin",
+    name: 'linkedin',
     imagePath: linkedIn,
-    url: "https://www.linkedin.com/in/",
+    url: 'https://www.linkedin.com/in/',
   },
   {
-    name: "Github",
+    name: 'Github',
     imagePath: github,
-    url: "https://github.com/kevinccbsg",
+    url: 'https://github.com/kevinccbsg',
   },
   {
-    name: "Medium",
+    name: 'Medium',
     imagePath: medium,
-    url: "https://medium.com/",
+    url: 'https://medium.com/',
   },
 ];
 

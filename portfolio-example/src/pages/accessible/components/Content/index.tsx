@@ -1,9 +1,9 @@
-import AboutMe from "./AboutMe";
-import Contact from "./Contact";
-import Education from "./Education";
-import Experience from "./Experience";
-import Languages from "./Languages";
-import Skills from "./Skills";
+import AboutMe from './AboutMe';
+import Contact from './Contact';
+import Education from './Education';
+import Experience from './Experience';
+import Languages from './Languages';
+import Skills from './Skills';
 
 export default function Content() {
   return (
